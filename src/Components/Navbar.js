@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Navbar.css'
 export default function Navbar() {
   return (
@@ -19,7 +19,8 @@ export default function Navbar() {
       </div>
      <p className='py-3 w-1/3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quaerat veniam </p>
      <button className='bg-purple-900 py-2 px-3 rounded-2xl text-white slate-900 hover:bg-fuchsia-700 mx-2'>Buy Now</button>
-      <button className='bg-purple-900 py-2  px-3 rounded-2xl text-white slate-900 hover:bg-fuchsia-700 mx-2'>Contact us</button>
+      <button className='bg-purple-900 py-2  px-3 rounded-2xl text-white slate-900 hover:bg-fuchsia-700 mx-2
+      '>Contact us</button>
      </div>
     
    </main>
